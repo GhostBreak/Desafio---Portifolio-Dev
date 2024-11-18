@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+
+.github{
+    width: 114px;
+    img{
+        color:var(--gray-500);
+    }
+}
+
+.html{
+    width: 105px;
+    
+    img{
+        color: var(--red);
+    }
+}
+
+.css{
+    width: 92px;
+}
+.javascript{
+    width: 138px;
+}
+.react{
+    width: 106px;
+}
+.nodejs{
+    width: 119px;
+}
+
