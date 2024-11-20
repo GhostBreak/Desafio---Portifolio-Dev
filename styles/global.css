@@ -43,9 +43,8 @@
 .bg-image-1 {
     background-image: url(../images/img/Background_Intro.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* height: 100vh; */
+    background-repeat: no-repeat; 
+    
 }
 
 a{
