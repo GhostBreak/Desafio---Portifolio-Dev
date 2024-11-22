@@ -1,13 +1,21 @@
 .grid{
     display: grid;
-}
+    justify-content: center;
+
+    }   
 
 .grid-flow-col{
     grid-auto-flow: column;
+  
+}
+
+.grid-cols-2{
+    grid-template-columns: repeat(3, 306px);
 }
 
 .github{
     width: 114px;
+
     img{
         color:var(--gray-500);
     }
@@ -33,4 +41,9 @@
 .nodejs{
     width: 119px;
 }
+
+.gap-24{
+    gap: 24px;
+}
+
 

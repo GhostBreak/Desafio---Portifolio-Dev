@@ -26,7 +26,7 @@
     --font-family: "Asap", sans-serif;
     --title-lg: 800 56px/120% var(--font-family);
     --title-md: 800 24px/120% var(--font-family);
-    --title-sm: 800 16x/120% var(--font-family);
+    --title-sm: 800 16px/120% var(--font-family);
 
     /* Font Maven Pro */
     --font-family-maven: "Maven Pro", sans-serif;
@@ -41,10 +41,14 @@
 }   
 
 .bg-image-1 {
+
     background-image: url(../images/img/Background_Intro.png);
+    width: 100vw;
+    
     background-size: cover;
     background-repeat: no-repeat; 
     
+  
 }
 
 a{
@@ -52,11 +56,7 @@ a{
     color: inherit;
 }
 
-
-   
-   
-   
-   
-   
-
+img{
+    max-width: 100%;
+}
 
